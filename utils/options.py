@@ -67,13 +67,5 @@ def args_parser():
 
     parser.add_argument('--global_param', type=int, default=1, help='net parameters is global')
 
-    # global task
-    parser.add_argument('--server_glo_eps', type=int, default=5, help='server global epochs')
-    parser.add_argument('--server_rep_eps', type=int, default=4, help='server rep epochs')
-    parser.add_argument('--middle_weight', type=float, default=0.8, help='server middle weight')
-    parser.add_argument('--train_type', type=int, default=1, help='server train type')
-    parser.add_argument('--global_dataset_ratio', type=float, default=0.5, help='global dataset ratio')
-    parser.add_argument('--loss_weight', type=float, default=0.1, help='loss weight')
-
     args = parser.parse_args()
     return args
