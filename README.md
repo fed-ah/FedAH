@@ -54,4 +54,4 @@ For examples of running FedAH as well as the FL baselines we compare against, pl
 
 # Acknowledgements
 
-Much of the code in this repository was adapted from code in the repository https://github.com/fed-ah/FedAH.git
+Much of the code in this repository was adapted from code in the repository https://github.com/lgcollins/FedRep.git
